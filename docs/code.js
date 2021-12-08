@@ -94,7 +94,7 @@ function clicks() {
           if ("status" == 200) {
             showElement("label9");
           } else {
-            setText("label9", "Sent ! ");
+            setText("label9", "Sent ! " + "");
             showElement("label9");
           }
           
